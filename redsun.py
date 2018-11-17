@@ -113,7 +113,7 @@ class Immortal:
         if server.id in self.the_data:
             await self.bot.send_message(server.get_channel(self.the_data[server.id]['WELCOMECHANNEL']),
                                         "Please welcome our newest member " + member.mention + ".\n" +
-                                        "Check " + server.get_channel("381129994245505044").mention + "if you're looking for help in the game\n" +
+                                        "Check " + server.get_channel("381129994245505044").mention + " if you're looking for help in the game\n" +
                                         "You can also type `!help` for a list of bot commands/features.")
 
 #    @immortalset.command(pass_context=True)
